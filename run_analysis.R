@@ -1,7 +1,6 @@
 packages <- c("data.table", "reshape2")
 sapply(packages, require, character.only=TRUE, quietly=TRUE)
 library(dplyr)
-setwd("/home/shailja/getting_and_cleaning_data/")
 tmp1 <- read.table("./data/train/X_train.txt")
 tmp2 <- read.table("./data/test/X_test.txt")
 X <- rbind(tmp1, tmp2)
