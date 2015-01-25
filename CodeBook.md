@@ -1,11 +1,10 @@
-###Getting and Cleaning Data Course Project
+##Getting and Cleaning Data Course Project
 
-##This file describes the variables, the data, and any transformations or work that I have performed to clean up the data.
+###This file describes the variables, the data, and any transformations or work that I have performed to clean up the data.
 ===================================================
-Source of data:
-    http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
-Data description:
-    https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+* Source of data: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+* Data description: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 The run_analysis.R script performs the following steps to clean the data:
         
 * Merge the train and test dataset to create one data set. Namely,
